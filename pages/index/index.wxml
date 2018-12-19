@@ -1,0 +1,9 @@
+<view class='link' wx:for='{{link}}' wx:key=''>
+  <view class='inner'>
+    <image src='{{item.icon}}' class='icon'></image>
+    {{item.name}}
+    <view class='value'>{{item.value}}</view>
+    <image src='../../images/my_04.jpg' class='arrow'></image>
+  </view>
+</view>
+<view class='btn' bindtap='jumpto'>历史记录</view>
